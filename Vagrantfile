@@ -6,6 +6,7 @@ machines = {
   "node01" => {"memory" => "1024", "cpu" => "1", "ip" => "101", "image" => "bento/ubuntu-22.04"},
   "node02" => {"memory" => "1024", "cpu" => "1", "ip" => "102", "image" => "bento/ubuntu-22.04"},
   "node03" => {"memory" => "1024", "cpu" => "1", "ip" => "103", "image" => "bento/ubuntu-22.04"}
+  "node04" => {"memory" => "1024", "cpu" => "1", "ip" => "104", "image" => "bento/ubuntu-22.04"}
 }
 
 Vagrant.configure("2") do |config|
